@@ -1,0 +1,17 @@
+{
+	"autoload": {
+		"classmap": [
+			"src/"
+		],
+		"files": [
+			"src/Config.php"
+		]
+	},
+	"require": {
+		"simplepie/simplepie": "~1.5",
+		"apache/log4php": "^2.3"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^7"
+	}
+}

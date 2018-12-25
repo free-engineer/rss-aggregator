@@ -1,0 +1,91 @@
+.channel-title {
+    font-size: large;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+.channel-desc {
+    font-size: 0.9rem;
+    margin: 0 0 6px 0;
+}
+
+.channel-pubdate {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 6px 0;
+    text-align: right;
+
+}
+
+.episode-title {
+    font-size: 1rem;
+}
+
+.episode-description {
+    padding: 2px 2px 2px 10px;
+    font-size: 0.9rem;
+}
+
+.episode-pubdate {
+    margin: 0 3px;
+    padding: 0 3px;
+    font-size: 90%;
+    border-radius: 2px;
+    background-color: darkgray;
+    color: #f7f7f7;
+}
+
+.readmore {
+    margin: 0;
+    padding: 1px;
+    font-size: 90%;
+    color: #f7f7f7;
+}
+
+/* UIKit overwrite*/
+.uk-accordion {
+    padding: 0;
+    margin: 8px 0;
+}
+
+.uk-accordion-title {
+    font-size: 1rem;
+    padding: 2px;
+    background-color: #f7f7f7;
+}
+
+.uk-accordion-title::before {
+    background-color: lightgray;
+    border-radius: 2px;
+}
+
+.uk-accordion>:nth-child(n+2) {
+    margin-top: 4px;
+}
+
+.uk-accordion-content {
+    margin-top: 8px;
+}
+
+.uk-button-small {
+    padding: 0 8px;
+    line-height: 22px;
+}
+
+.uk-button-danger {
+    background-color: darkorange;
+}
+
+.uk-icon svg {
+    margin: 0 0 4px 0;
+}
+
+div.download-button {
+    background-color: darkorange;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+.download-button a {
+    color: #f7f7f7;
+}
