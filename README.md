@@ -13,7 +13,7 @@ Aggregate your favorite rss feeds and shows Channels/Episodes on your web site.
 
 ## Demo
 
-[Japanese podcasts for engineers.](https://free-engineer.xrea.jp/rss-aggregator/src/Views/index.php)
+[Japanese podcasts for engineers.](http://bit.ly/rss-agg)
 
 ## Requirement
 
