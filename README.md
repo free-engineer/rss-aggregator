@@ -15,6 +15,10 @@ Aggregate your favorite rss feeds and shows Channels/Episodes on your web site.
 
 [Japanese podcasts for engineers.](http://bit.ly/rss-agg)
 
+## Developer's blog(Japanese)
+
+[Freelance Engineer Blog](https://free-engineer.xrea.jp/2120)
+
 ## Requirement
 
 - PHP 7
