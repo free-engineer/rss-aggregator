@@ -28,6 +28,7 @@ Abstract class AbstractStorage implements StorableInterface
             return self::$instance[$concreteStorageClass];
         } catch (Exception $e) {
             error_log("{$concreteStorageClass} instantiation error at getInstance() method.");
+            error_log($e->getTraceAsString());
         }
     }
 }

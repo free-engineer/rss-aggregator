@@ -19,6 +19,7 @@ class StorageSqlite extends AbstractStoragePdo
             $this->setPdo(new PDO($dsn, "", "", $options));
         } catch( PDOException $e ) {
             error_log("DB Connection Error:" . $e->getMessage());
+            error_log($e->getTraceAsString());
         }
     }
 }

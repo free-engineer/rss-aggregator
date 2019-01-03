@@ -18,6 +18,7 @@ class StorageMySql extends AbstractStoragePdo
             $this->setPdo(new PDO($dsn, MYSQL_USER, MYSQL_PASSWORD, $options));
         } catch( PDOException $e ) {
             error_log("DB Connection Error:" . $e->getMessage());
+            error_log($e->getTraceAsString());
             return false;
         }
         return true;
