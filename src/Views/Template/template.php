@@ -86,7 +86,7 @@
 			<!-- When use button tag and uk-button class, Blob download faild. So Changed to normal div tags.-->
 			<a class='' id="download" href="#" download="techie-podcasts.opml" onclick="handleDownload()"><b>OPMLファイルをダウンロードする</b></a>
 		</div>
-		<div class='checkall uk-align-center'><input type="checkbox" checkall" checked='checked' onClick='toggleAllCheckbox(checkall.checked)'/><label for='checkall'>全チェック／全解除</label></div>
+		<div class='checkall uk-align-center'><input id='checkall' type="checkbox" checked='checked' onClick='toggleAllCheckbox(checkall.checked)'/><label for='checkall'>全チェック／全解除</label></div>
 	</div>
 </div>
 <?php
